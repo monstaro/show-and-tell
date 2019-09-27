@@ -1,0 +1,91 @@
+body,
+html {
+    margin: 0;
+    height: 100;
+    font-family: 'Open Sans', sans-serif;
+    background: url(images/bg.png);
+}
+
+.container {
+    height: 100%;
+    margin: auto;
+    width: 80%;
+}
+
+.header {
+    background-color: turquoise;
+    box-shadow: 0px 5px 10px grey;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 2em;
+    font-weight: 800;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+h1 {
+    display: inline;
+    margin: 0;
+    text-align: center;
+}
+
+.music-picture {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: -webkit-fill-available;
+    background-image: url(images/beach2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    min-height: 100px;
+    max-height: 900px;
+    width: 80%;
+}
+
+.music-container,
+.photography-container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    background-color: white;
+    color: #83CDD8;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    font-size: 3em;
+}
+
+.photography-picture {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    height: -webkit-fill-available;
+    background-image: url(images/beach2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    min-height: 100px;
+    max-height: 900px;
+    width: 80%;
+}
+
+.music-text,
+.photography-text {
+    background-color: white;
+    color: #477880;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    width: 80%;
+    margin: auto;
+}
