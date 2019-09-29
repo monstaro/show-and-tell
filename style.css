@@ -69,7 +69,7 @@ h2 {
     display: flex;
     margin: auto;
     height: -webkit-fill-available;
-    background-image: url(images/beach2.jpg);
+    background-image: url(images/photography.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,6 +78,8 @@ h2 {
     min-height: 100px;
     max-height: 900px;
     width: 80%;
+    box-sizing: border-box;
+    border: 15px solid white;
 }
 
 .music-text,
@@ -86,6 +88,6 @@ h2 {
     color: #477880;
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
